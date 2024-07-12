@@ -1,0 +1,63 @@
+* {
+margin: 0;
+padding: 0;
+}
+header {
+    text-align: center;
+    font-size: 2.8em;
+    background-color:aquamarine;
+    padding: 15px;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    div.left{
+        justify-content: center;
+    }
+    div.right{
+        img { width: ;100%}  
+        justify-content: center;   
+    }
+    div.section2{
+        grid-column: span 2;
+        padding: 20px 20px;
+        text-align: center;
+        div.ministry {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            padding: 10px;
+            div {
+            justify-content: center;
+            }
+            }
+    }
+    
+        
+}
+h2 {
+   text-align: center;
+   font-size: 50px;
+   padding 50px;
+ 
+}
+p { 
+    text-align: left;
+    font-size: 2.2em;
+    padding-left: 10px;
+}
+.block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: yellow;
+    color: rgb(190, 7, 7);
+    padding: 14px 28px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .block:hover {
+    background-color: blue;
+    color: gold;
+  }
