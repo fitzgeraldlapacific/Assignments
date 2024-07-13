@@ -1,0 +1,41 @@
+body{
+    font-family: 'Franklin Gothic Medium';
+}
+header{
+    text-align: center;
+}
+main{
+    padding: 10px;
+    min-height: calc(100vh - 60px);
+    background-image: url(./images/pexels-nicole-avagliano-1132392-2236713.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    ul{
+        list-style-type: none;
+        background-color: blue;
+        color: azure;
+        width: 250px;
+        margin: auto;
+      li{
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{display: block;}
+        a{
+            text-decoration: none;
+            color: rgb(5, 5, 48);
+            padding: 10px 25px;
+            font-size: 2em;
+            display: block;
+        }
+      }  
+    }
+    
+}
+footer{
+    border-top: 1px solid;
+    padding: 20px;
+    text-align: center;
+}
